@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<script src="aframe/aframe.min.js"></script>
+ 	<a-scene>
+ 		<a-sky color="black"></a-sky>
+ 		<a-plane src="https://images.unsplash.com/photo-1648381248719-61d0a550aca1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" width="7" height="7" rotation="-55 0 0" position= "-2 -2 -5" color="#0C0032"></a-plane>
+ 		<a-plane width="9" height="2" position="3 1 -9"></a-plane>
+ 		<a-torus position="-2 1 -5" color="#3500D3" radius="1.2" animation="property: components.material.material.color; type: color; from: #3500D3; to: red; loop: true; dur: 10000">></a-torus>
+ 		<a-cylinder color="yellow" height="2" radius="0.05"	position="-2 -1 -5"></a-cylinder>
+ 		<a-cylinder color="blue" height="2" radius="0.05" position="-3 -1 -5"></a-cylinder>
+ 		<a-torus-knot color="orange" radius="1.2" position="-3 1 -5"></a-torus-knot>
+ 		<a-text value="Welcome to Ukraine" color="black" width="10" position="-0.5 1 -6" font="Rurik Viking-msdf.json" negate="false"></a-text>
+ 	</a-scene>
+</html>
